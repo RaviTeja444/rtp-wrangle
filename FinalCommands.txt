@@ -1,0 +1,10 @@
+curl "http://shakespeare.mit.edu/tempest/full.html" -O "myplay_tempest.txt"
+
+grep -c 'Boatswain' myplay_tempest.txt
+
+grep -c 'ALONSO' myplay_tempest.txt
+
+grep -c 'Boatswain' myplay_tempest.txt > Boatswain.txt
+
+grep -c 'ALONSO' myplay_tempest.txt > ALONSO.txt
+
